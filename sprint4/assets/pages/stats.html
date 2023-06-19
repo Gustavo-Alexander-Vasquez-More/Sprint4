@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Events | Contact</title>
+    <link rel="shortcut icon" href="../images/Logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <img src="../images/Logo.png" alt="logo" id="img-logo-nav">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./upcomingEvents.html">Upcoming Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pastEvents.html">Past Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Stats</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </header>   
+        <main>
+            <!--ESTO ES EL CARROUSEL-->
+            <div class="seccion-carrousel">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        <div class="seccion-table-stats">
+            <table id="tabla1">
+                <thead>
+                    <tr>
+                      <th>Events Statistics</th>
+                    </tr>
+                    <tr>
+                        <th>Events with the highest of attendance</th>
+                        <th>Events with the lowest percentage of attendance</th>
+                        <th>Event with larger capacity</th>
+                    </tr>       
+                  </thead>
+                  <tbody id="bodytabla1"></tbody>
+            </table>
+            <table id="tabla2">
+            <thead>
+                    <tr>
+                        <th>Upcoming events Statistics by category</th>
+                    </tr>
+                    <tr>
+                        <th>Categories</th>
+                        <th>Revenues</th>
+                        <th>Percentage of attendance</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tbodyTabla2"></tbody>
+            </table>
+            <table id="tabla3">
+                <thead>
+                        <tr>
+                            <th>Past events Statistics by category</th>
+                        </tr>
+                        <tr>
+                            <th>Categories</th>
+                            <th>Revenues</th>
+                            <th>Percentage of attendance</th>
+                        </tr>
+                        </thead>
+                        <tbody id="tbodyTabla3">
+    
+                        </tbody>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <div class="icons">
+                <img class="imgsvg" src="../images/instagram (1).svg" alt="insta">
+                <img class="imgsvg" src="../images/facebook (1).svg" alt="face">
+                <img class="imgsvg" src="../images/whatsapp (1).svg" alt="whats">
+            </div>
+            <h3>Cohort 48</h3>
+        </footer>
+        <script type="module" src="../archivos js/stats.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+</html>

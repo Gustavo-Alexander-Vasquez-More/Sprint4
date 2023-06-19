@@ -1,0 +1,423 @@
+/*ESTO ES PARA EL HEADER*/
+header{
+padding-left: 1.0rem;
+background-color: rgb(42, 42, 140);
+}
+li> a{
+color: white !important;
+}
+#img-logo-nav{
+width: 8rem;
+}
+#navbarNav{
+display: flex;
+justify-content: end;
+}
+/*SECCION PARA EL CARROUSEL*/
+.seccion-carrousel{
+min-height: 20vh;
+}
+#carouselExampleAutoplaying{
+min-height: 20vh;
+}
+.carousel-inner{
+min-height: 30vh;
+}
+.img-carrousel{
+height: 30vh;
+object-fit: cover !important;
+
+}
+/*SECCION PARA LOS CHECKBOX*/
+.box-checks-search{
+min-height: 15vh;
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 2rem;
+background-color: rgb(43, 60, 135);
+
+}
+#search{
+width: 20rem;
+
+}
+#checkbox{
+display: flex;
+flex-direction: row;
+}
+.form-check{
+
+width: 8.5rem;
+}
+#search-input{
+width: 20rem;
+}
+.navbarsearch{
+background-color:rgb(43, 60, 135)!important;
+}
+.navbar-collapse {
+    display: none !important; /* Oculta el menú cuando está colapsado */
+    text-align: center;
+  }
+  
+  /* Estilo para el menú colapsado en dispositivos móviles */
+  .navbar-collapse.show {
+    display: block !important; /* Muestra el menú cuando está desplegado */
+}
+.form-check-label{
+color: white;
+}
+/*ESTO ES PARA LA SECCION DEL HOME*/
+.seccion-cards{
+    background-image: url(../images/astro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   height: auto !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+gap: 4rem; 
+padding: 2rem;
+}
+.card-img-top{
+min-height: 12rem !important;
+width: 17.6rem !important;
+}
+.card-body{
+background-color: black !important;
+}
+.card-title, .card-text, .text-price {
+color: white !important;
+}
+.card{
+border: 3px solid black !important;
+max-height: 25rem !important;
+}
+.price-btn{
+display: flex;
+justify-content: space-around;
+}
+/*ESTO ES PARA EL FOOTER*/
+footer{
+height: 10vh;
+background-color: rgb(42, 42, 140);
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.icons{
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .imgsvg{
+    height: 2rem;
+    }
+/*ESTO ES UPCOMING*/
+#sec-card-upcoming{
+    height: auto;   
+}
+/*ESTO ES PAST*/
+#sec-card-past{
+height: auto ;
+}
+    
+footer> h3{
+color: white;
+}
+
+/*ESTO ES CONTACT*/
+.seccion-form-contact{
+min-height:62vh ;
+background-image: url(../images/49066cd709a43dcc797134a62b6eb91f.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.form-contact{
+width: 25rem;
+color: white;
+font-size: 1.3rem;
+}
+/*ESTO ES STATS*/
+.seccion-table-stats{
+height:auto ;
+background-image: url(../images/49066cd709a43dcc797134a62b6eb91f.jpg);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 3rem;
+}
+table{
+    background-color: rgb(83, 167, 236) !important;
+    min-width: 55rem;
+}
+td, th{
+color: black;
+background-color:  rgb(83, 167, 236) !important;
+border: 2px solid black;
+}
+table{
+border: 2px solid black;
+}
+td{
+border: 2px solid black;
+}
+/*ESTO ES PARA DEATIL*/
+#sec-card-details{
+    background-image: url(../images/astro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+gap: 4rem; 
+padding: 2rem;
+}
+.card-img-top{
+width: 17.7rem !important;
+min-height: 8rem !important;
+object-fit: cover;
+}
+.card-img-top-details{
+    height: 24.7rem;
+    width: 50rem !important;
+}
+#cont-img-details{
+width: 19.8rem;
+background-color: aqua;
+}
+#container-detail{
+width: 60rem !important;
+}
+.body-details{
+width: 40rem;
+height: 24.7rem;
+}
+#card-filter-details{
+min-height: 33rem;
+}
+.img-error{
+width: 20rem !important;
+height: 20rem;
+margin-left: 20rem;
+}
+.text-error{
+    color: black;
+    }
+@media only screen and (min-width:1024px) and (max-width:1500px) {
+.form-check{
+width: 5.5rem;
+}
+.img-error{
+    width: 20rem !important;
+    height: 20rem;
+    margin-left: 20rem;
+    }
+    .text-error{
+        color: black;
+        }
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+.navbar-toggler{
+height: 2rem;
+width: 2.5rem;
+padding-right: 2.5rem;
+margin-top: 0.5rem;
+}
+.navbar-toggler-icon{
+height: 1.5rem;
+}
+#box-checks-search{
+display: flex;
+flex-direction: column ;
+justify-content: center;
+align-items: center;
+}
+.form-check{
+width: 6rem;
+}
+#search-input{
+width: 89vw;
+display: flex;
+justify-content: center;
+}
+.form-control{
+margin-top: 1rem;
+}
+.seccion-table-stats{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+table{
+min-width: 45rem;
+}
+#sec-card-details{
+    background-image: url(../images/astro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+gap: 4rem; 
+padding: 2rem;
+}
+.card-img-top{
+width: 15.7rem !important;
+min-height: 8rem !important;
+object-fit: cover;
+}
+.card-img-top-details{
+    height: 20rem;
+    width: 14rem !important;
+}
+#cont-img-details{
+width: 14rem;
+
+}
+#container-detail{
+min-width: auto;
+background-color:black;
+}
+.body-details{
+width: auto;
+height: 20rem;
+}
+.card-pages{
+    background-color: aqua;
+    width: 16rem !important;
+    height: 40rem !important;
+    }
+    .img-error{
+        width: 10rem !important;
+        height: 10rem;
+        margin-left: 16rem;
+        }
+.text-error{
+color: black;
+}
+}   
+
+@media only screen and (min-width:320px) and (max-width:767px){
+    #box-checks-search{
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        align-items: center;
+        height: 10rem;
+        }
+        .form-check{
+        width: 5.7rem;
+        display: flex;
+        flex-wrap: wrap !important;
+    }
+    #checkbox{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+        
+        #search-input{
+        width: 84vw;
+        display: flex;
+        justify-content: center;
+      
+    }
+        .form-control{
+        margin-top: 1rem;
+        }
+.seccion-form-contact{
+    height:auto ;
+    background-color: rgb(41, 41, 78);
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    }
+    .form-contact{
+        width: 95vw;
+        color:rgb(255, 255, 255);
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+        .card-img-top{
+            width: 15.7rem !important;
+            min-height: 5rem !important;
+            object-fit: cover;
+            }
+            .card-body{
+            overflow-y: hidden;
+            }
+            .card-pages{
+            background-color: aqua;
+            width: 16rem !important;
+            height: 40rem !important;
+            }
+            .card-title{
+            font-size: 0.8rem;
+            }
+            .card-text{
+                font-size: 0.7rem;
+            }
+            .tex-price{
+            font-size: 0.8rem;
+            }
+            .btn-card{
+            height: 2rem;
+            font-size: 0.8rem;
+            }
+main{
+overflow-x: hidden;
+}
+.seccion-table-stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    table{
+    min-width: 18rem;
+    }
+    .card-img-top-details{
+        height: 10rem;
+        width: auto;
+    }
+    #cont-img-details{
+    width: auto;
+    
+    }
+    #container-detail{
+    min-width: auto;
+    background-color:black;
+    }
+    .body-details{
+    width: auto;
+    height: 14rem;
+    }
+    .img-error{
+        width: 10rem !important;
+        height: 10rem;
+        margin-left: 3rem;
+        }
+        .text-error{
+            color: black;
+            }
+}
